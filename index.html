@@ -492,27 +492,29 @@
             </div>
 
             <div class="contact-box">
+                <!-- <form action="https://formspree.io/f/xovengpv"
+                method="POST"> -->
                 <form action="">
                     <h2 class="heading">Contact <span>Me!</span></h2>
                     <div class="field-box">
                         <div class="input-field field-in error">
-                            <input type="text" id="fullName" class="item" placeholder="Full Name" autocomplete="off" required>
+                            <input type="text" id="fullName" name="fullName" class="item" placeholder="Full Name" autocomplete="off" required>
                             <div class="error-txt">Full Name Can't Be Blank</div>
                         </div>
                         <div class="input-field field-in error">
-                            <input type="email" id="email" class="item" placeholder="Email Address" autocomplete="off" required>
+                            <input type="email" id="email" name="email" class="item" placeholder="Email Address" autocomplete="off" required>
                             <div class="error-txt email">Email Address Can't Be Blank</div>
                         </div>
                         <div class="input-field field-in error">
-                            <input type="text" id="mobileNo" class="item" placeholder="Phone Number" autocomplete="off" required>
+                            <input type="text" id="mobileNo" name="mobileNo" class="item" placeholder="Phone Number" autocomplete="off" required>
                             <div class="error-txt">Phone Number Can't Be Blank</div>
                         </div>
                         <div class="input-field field-in error">
-                            <input type="text" id="subject" class="item" placeholder="Email Subject" autocomplete="off" required>
+                            <input type="text" id="subject" class="item" name="subject" placeholder="Email Subject" autocomplete="off" required>
                             <div class="error-txt">Email Subject Can't Be Blank</div>
                         </div>
                         <div class="textarea-field field-in error">
-                            <textarea id="message" class="item" placeholder="Your Message" autocomplete="off" required></textarea>
+                            <textarea id="message" name="message" class="item" placeholder="Your Message" autocomplete="off" required></textarea>
                             <div class="error-txt">Message Can't Be Blank</div>
                         </div>
                     </div>
