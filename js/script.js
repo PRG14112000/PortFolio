@@ -209,7 +209,7 @@ const email = document.getElementById("email")
 const mobileNo = document.getElementById("mobileNo")
 const subject = document.getElementById("subject")
 const mess = document.getElementById("message")
-const secretKey = process.env.EMAIL_PASSWORD;
+// const secretKey = process.env.EMAIL_PASSWORD;
 
 
 function sendEmail() {
@@ -220,7 +220,7 @@ function sendEmail() {
         // SecureToken will take care of the below commented thing
         Host : "smtp.elasticemail.com",
         Username : "pratikgupta.prof.main@gmail.com",
-        Password : secretKey,
+        Password : "CC149C33B0F76790F0D3C0F7F32ECAD89D6C",
         To : 'pratikgupta.prof.main@gmail.com',
         From : 'pratikgupta.prof.main@gmail.com',
         Subject : subject.value,
